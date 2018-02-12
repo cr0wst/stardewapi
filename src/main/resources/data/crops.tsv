@@ -1,0 +1,37 @@
+name	description	harvest_initial	harvest_recurring	basic_price	silver_price	gold_price	can_be_giant	general_store	joja_mart	traveling_cart	oasis	egg_festival
+Blue Jazz	The flower grows in a sphere to invite as many butterflies as possible.	7	0	50	62	75	FALSE	30	37	0	0	0
+Cauliflower	Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.	12	0	175	218	262	TRUE	80	100	0	0	0
+Coffee Bean	Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee.	10	2	15	18	22	FALSE	0	0	2500	0	0
+Garlic	Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.	4	0	60	75	90	FALSE	40	0	0	0	0
+Green Bean	A juicy little bean with a cool, crisp snap.	10	3	40	50	60	FALSE	60	75	0	0	0
+Kale	The waxy leaves are great in soups and stir frys.	6	0	110	137	165	FALSE	70	87	0	0	0
+Parsnip	A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients.	4	0	35	43	52	FALSE	20	25	0	0	0
+Potato	A widely cultivated tuber.	6	0	80	100	120	FALSE	50	62	0	0	0
+Rhubarb	The stalks are extremely tart, but make a great dessert when sweetened.	13	0	220	275	330	FALSE	0	0	0	100	0
+Strawberry	A sweet, juicy favorite with an appealing red color.	8	4	120	150	180	FALSE	0	0	0	0	100
+Tulip	The most popular spring flower. Has a very faint sweet smell.	6	0	30	37	45	FALSE	20	25	0	0	0
+Blueberry	A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration.	13	4	50	62	75	FALSE	80	0	0	0	0
+Corn	One of the most popular grains. The sweet, fresh cobs are a summer favorite.	14	4	50	62	75	FALSE	150	187	0	0	0
+Hops	A bitter, tangy flower used to flavor beer.	11	1	25	31	37	FALSE	60	75	0	0	0
+Hot Pepper	Fiery hot with a hint of sweetness.	5	3	40	50	60	FALSE	40	50	0	0	0
+Melon	A cool, sweet summer treat.	12	0	250	312	375	TRUE	80	100	0	0	0
+Poppy	In addition to its colorful flower, the Poppy has culinary and medicinal uses.	7	0	140	175	210	FALSE	100	125	0	0	0
+Radish	A crisp and refreshing root vegetable with hints of pepper when eaten raw.	6	0	90	112	135	FALSE	40	50	0	0	0
+Red Cabbage	Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.	9	0	260	325	390	FALSE	100	0	0	0	0
+Starfruit	An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.	13	0	750	937	1125	FALSE	0	0	0	400	0
+Summer Spangle	A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.	8	0	90	112	135	FALSE	50	62	0	0	0
+Sunflower	A common misconception is that the flower turns so it's always facing the sun.	8	0	80	100	120	FALSE	200	125	0	0	0
+Tomato	Rich and slightly tangy, the Tomato has a wide variety of culinary uses.	11	4	60	75	90	FALSE	50	62	0	0	0
+Wheat	One of the most widely cultivated grains. Makes for a great flour for breads and cakes.	4	0	25	31	37	FALSE	10	12	0	0	0
+Amaranth	A purple grain cultivated by an ancient civilization.	7	0	150	187	225	FALSE	70	87	0	0	0
+Artichoke	The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.	8	0	160	200	240	FALSE	30	0	0	0	0
+Beet	A sweet and earthy root vegetable. As a bonus, the leaves make a great salad.	6	0	100	125	150	FALSE	20	0	0	0	0
+Bok Choy	The leafy greens and fibrous stalks are healthy and delicious.	4	0	80	100	120	FALSE	50	62	0	0	0
+Cranberries	These tart red berries are a traditional winter food.	7	5	75	93	112	FALSE	240	300	0	0	0
+Eggplant	A rich and wholesome relative of the tomato. Delicious fried or stewed.	5	5	60	75	90	FALSE	20	25	0	0	0
+Fairy Rose	An old folk legend suggests that the sweet smell of this flower attracts fairies.	12	0	290	362	435	FALSE	200	250	0	0	0
+Grape	A sweet cluster of fruit.	10	3	80	100	120	FALSE	60	75	0	0	0
+Pumpkin	A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration.	13	0	320	400	480	TRUE	100	125	0	0	0
+Yam	A starchy tuber with a lot of culinary versatility.	10	0	160	200	240	FALSE	60	75	0	0	0
+Sweet Gem Berry	It's by far the sweetest thing you've ever smelled.	24	0	3000	3750	4500	FALSE	0	0	1000	0	0
+Ancient Fruit	It's been dormant for eons.	28	7	550	687	825	FALSE	0	0	1000	0	0
