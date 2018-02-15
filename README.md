@@ -19,9 +19,10 @@ I chose to keep the values in `.tsv` because I found it was easier to maintain t
 I believe that by doing this on booting of the application any performance from seeding is negligible. 
 ## Example
 Here's an example from the crop endpoint which offers the following features:
-- `https://stardew.smcrow.net/crops/` - Display a list of crops.
-- `https://stardew.smcrow.net/crops/{id}` - Display a crop by `{id}`.
-- `https://stardew.smcrow.net/crops/search?name={name}` - Display a list of crops with a name matching `{name}`
+- `https://stardewapi.herokuapp.com/` - Display a list of crops.
+- `https://stardewapi.herokuapp.com/{id}` - Display a crop by `{id}`.
+- `https://stardewapi.herokuapp.com/crops/search?name={name}` - Display a list of crops with a name matching `{name}`
+- `https://stardewapi.herokuapp.com/crops/giant` - Display a list of crops that can grow giant if placed in a grid.
 
 ### Response
 Here's the response object for a single crop:
