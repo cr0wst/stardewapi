@@ -1,18 +1,20 @@
 package net.smcrow.stardewapi.client.price
 
+import com.fasterxml.jackson.databind.ObjectMapper
 import net.smcrow.stardewapi.client.constants.Store
+import net.smcrow.stardewapi.client.crop.Crop
+
 
 /**
  * Representation of the purchase price of a various item.
  */
-data class PurchasePrice(
-        /**
-         * The [Store] in which the item can be bought.
-         */
-        val store: Store,
+class PurchasePrice(
+        val store: Store = Store.ABANDONED_HOUSE,
+        val price: Int = 0
+) {
+    companion object {
+        private val mapper: ObjectMapper = ObjectMapper()
 
-        /**
-         * The price to purchase the item.
-         */
-        val price: Int
-)
+        fun fromJson(json: String) = mapper.readValue(json, PurchasePrice::class.java)
+    }
+}
