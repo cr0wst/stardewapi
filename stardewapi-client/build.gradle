@@ -21,6 +21,9 @@ repositories {
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version")
     compile("com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.4")
+    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.4")
+    testCompile("junit:junit:4.12")
+    testCompile('com.github.javafaker:javafaker:0.14')
 }
 
 compileKotlin {
