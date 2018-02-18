@@ -1,9 +1,9 @@
 package net.smcrow.stardewapi.client.price
 
 /**
- * Representation of the selling price of a [Crop] or [Fish].
+ * Representation of the selling price of an item.
  */
-class SellingPrice(
+data class SellingPrice(
         /**
          * The base price.
          */
