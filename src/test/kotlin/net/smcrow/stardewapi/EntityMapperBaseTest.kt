@@ -18,12 +18,11 @@ import java.util.*
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-internal class EntityMapperBaseTest {
+internal abstract class EntityMapperBaseTest {
 
     lateinit var faker: Faker
     lateinit var random: Random
 
-    @Before
     fun before() {
         faker = Faker()
         random = Random()
