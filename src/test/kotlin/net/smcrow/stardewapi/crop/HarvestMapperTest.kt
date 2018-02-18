@@ -4,14 +4,18 @@ import net.smcrow.stardewapi.EntityMapperBaseTest
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.test.context.junit4.SpringRunner
 
+@RunWith(SpringRunner::class)
+@SpringBootTest
 internal class HarvestMapperTest(): EntityMapperBaseTest() {
 
     lateinit var harvestMapper: HarvestMapper
 
     @Before
-    override fun before() {
-        super.before()
+    fun before() {
         harvestMapper = HarvestMapper()
     }
 

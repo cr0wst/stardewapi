@@ -4,14 +4,18 @@ import net.smcrow.stardewapi.EntityMapperBaseTest
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.test.context.junit4.SpringRunner
 
+@RunWith(SpringRunner::class)
+@SpringBootTest
 internal class SellingPriceMapperTest(): EntityMapperBaseTest() {
 
     lateinit var sellingPriceMapper: SellingPriceMapper
 
     @Before
-    override fun before() {
-        super.before()
+    fun before() {
         sellingPriceMapper = SellingPriceMapper()
     }
 

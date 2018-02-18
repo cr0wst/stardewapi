@@ -6,14 +6,18 @@ import net.smcrow.stardewapi.price.SellingPriceMapper
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.test.context.junit4.SpringRunner
 
+@RunWith(SpringRunner::class)
+@SpringBootTest
 internal class CropMapperTest(): EntityMapperBaseTest() {
 
     lateinit var cropMapper: CropMapper
 
     @Before
-    override fun before() {
-        super.before()
+    fun before() {
         cropMapper = CropMapper(HarvestMapper(), PurchasePriceMapper(), SellingPriceMapper())
     }
 

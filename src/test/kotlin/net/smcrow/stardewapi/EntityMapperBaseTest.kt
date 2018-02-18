@@ -1,6 +1,5 @@
 package net.smcrow.stardewapi
 
-import com.github.javafaker.Faker
 import net.smcrow.stardewapi.client.constants.Store
 import net.smcrow.stardewapi.client.crop.Crop
 import net.smcrow.stardewapi.client.crop.Harvest
@@ -10,23 +9,11 @@ import net.smcrow.stardewapi.crop.CropEntity
 import net.smcrow.stardewapi.crop.HarvestEntity
 import net.smcrow.stardewapi.price.PurchasePriceEntity
 import net.smcrow.stardewapi.price.SellingPriceEntity
-import org.junit.Before
 import org.junit.runner.RunWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.junit4.SpringRunner
-import java.util.*
 
-@RunWith(SpringRunner::class)
-@SpringBootTest
-internal abstract class EntityMapperBaseTest {
-
-    lateinit var faker: Faker
-    lateinit var random: Random
-
-    fun before() {
-        faker = Faker()
-        random = Random()
-    }
+internal abstract class EntityMapperBaseTest : BaseTest() {
 
     protected fun createCropEntity() = CropEntity(
             id = faker.number().randomNumber(),
