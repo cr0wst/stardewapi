@@ -8,7 +8,7 @@ import net.smcrow.stardewapi.client.crop.Crop
 /**
  * Representation of the purchase price of a various item.
  */
-class PurchasePrice(
+data class PurchasePrice(
         val store: Store = Store.ABANDONED_HOUSE,
         val price: Int = 0
 ) {
